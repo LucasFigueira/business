@@ -1,0 +1,54 @@
+hr{
+  border-bottom: 0px;
+} 
+.legenda{
+    /* display: none; */
+    top: 84% !important;
+    height: 16% !important;
+}
+
+
+ 
+.section{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.card:hover{ 
+    -webkit-box-shadow: 0px 0px 30px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -6px rgba(0,0,0,0.75);
+  }
+  .card{
+      border-radius: 5px;
+  }
+
+  .legenda {
+    background: rgba(131, 130, 130, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+ 
+@media only screen and (max-width: 601px){
+
+.row .col.m6 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+ 
+    
+}
+
+@media only screen and (max-width: 596px){
+.row .col.s12 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+ 
+}
