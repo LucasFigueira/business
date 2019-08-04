@@ -1,0 +1,10 @@
+.servicos{
+    width: 100%;
+    height: 500px; 
+}
+
+.separador2{
+    width: 100%;
+    height: 100px;
+    background: url(../assets/images/vermelho.jpg) repeat fixed #D84530;  
+  } 
