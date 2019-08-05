@@ -13,7 +13,8 @@ const baseUrl = 'http://localhost:3001/mensagem'
 export default class Contato extends Component {
   state = { ...initialState }
   renderForm(){ 
-    return( 
+    return(
+      <div className="contato">
       <div className="row">
         <form className="col s12" prevent>
           <div className="row">
@@ -44,6 +45,7 @@ export default class Contato extends Component {
 
       </form>
     </div>
+    </div> 
     )
   }
 
@@ -54,10 +56,10 @@ export default class Contato extends Component {
   } 
 
   render() {
-    return (
-        <Main >
-            {this.renderForm()} 
-        </Main>
+    return ( 
+      <React.Fragment>
+            {this.renderForm()}  
+      </React.Fragment>
     )
   }
 

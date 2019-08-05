@@ -1,5 +1,18 @@
 .sobrenos{
  width: 100%;
-height: 450px;
+height: 600px;
 background: url(../assets/images/verde.jpg) repeat fixed #D84530; 
 }
+.box {
+    width: 50%;
+    float: left;
+    height: 450px;/*Altura da linha*/
+    word-wrap: break-word;
+   }
+   
+   .linha-vertical {
+    border-left: 5px dashed;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+    color: rgb(240, 240, 152);
+   }
+ 

@@ -4,6 +4,7 @@ import Main from './Main'
 import './Exp.css'
 import Comp2 from './Component2.jsx'
 import Comp3 from './SobreNos.jsx'
+import Contato from './Contato.jsx'
 export default props =>
 <Main>  
       <header className="home">
@@ -19,4 +20,8 @@ export default props =>
       <Comp3>
         
       </Comp3>
+
+      <Contato>
+            
+      </Contato>
 </Main>
