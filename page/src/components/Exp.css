@@ -26,7 +26,8 @@ hr{
 .section{
     margin: 20px;
     border-radius: 20px;
-    background: url(../assets/images/vermelho.jpg) repeat fixed #D84530; 
+    /* background: url(../assets/images/vermelho.jpg) repeat fixed #D84530;  */
+    background-color: #efefef;
     
 }
 
@@ -73,11 +74,11 @@ h1{
 }
  
 }
-
-.separador{
-  width: 100%;
-  height: 100px;
-  background: url(../assets/images/vermelho.jpg) repeat fixed #D84530; 
-  top: 50px;
-  margin-top: 435px;
-} 
+ 
+.home{
+  height: 700px;
+ 
+  background-image: url('../assets/images/Black-wook2.png');
+  background-repeat: no-repeat;
+  height: 1000px;
+}

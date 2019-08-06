@@ -5,7 +5,7 @@ import Footer from './Footer'
 export default props =>
     <React.Fragment>
         <Header {...props} />
-        <main className="container-fluid"> 
+        <main className=""> 
                  {props.children} 
         </main> 
     </React.Fragment>

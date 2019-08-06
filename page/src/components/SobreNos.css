@@ -1,12 +1,13 @@
 .sobrenos{
  width: 100%;
-height: 600px;
-background: url(../assets/images/verde.jpg) repeat fixed #D84530; 
+height: 800px;
+/*background: url(../assets/images/verde.jpg) repeat fixed #D84530; */
+background-color: rgb(105,175,164);
 }
 .box {
     width: 50%;
     float: left;
-    height: 450px;/*Altura da linha*/
+    height: 731px;/*Altura da linha*/
     word-wrap: break-word;
    }
    
@@ -15,4 +16,19 @@ background: url(../assets/images/verde.jpg) repeat fixed #D84530;
     box-sizing: border-box;
     color: rgb(240, 240, 152);
    }
+ 
+ 
+.foto1{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: beige; 
+}
+
+.disp{
+    display: flex;
+}
+
+
+
  

@@ -6,8 +6,9 @@ import './Component2.css'
 export default props =>
 <React.Fragment>
 <div className="servicos">
-<h2 class="dark-text">Nossos Serviços</h2>
+<h2 class="dark-text nossos-servicos">Nossos Serviços</h2>
    <div className="container">
+  
       <div className="row">
       <div className="col s12 m6 l3" >
             <div className="icon-service">
@@ -62,8 +63,6 @@ export default props =>
 
    </div>
 
-</div>
-<div className="separador2"> 
-      </div>
+</div> 
 </React.Fragment>
 

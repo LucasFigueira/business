@@ -1,12 +1,19 @@
 import React from 'react' 
-import './SobreNos.css'
+import './SobreNos.css' 
 export default props =>
 
 <div className="sobrenos"> 
-<div class="box">
-<p>fsdfdsfsdfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsfsdfdsfsdfsdfsdfdsfsdfsdfsfsdfs</p>
- </div>
-<div class="box linha-vertical">
-
-</div>
+<h1>QUEM SOMOS</h1> 
+<div className="row center-align">
+<div className="col s6">
+    <div className="foto1">
+ 
+    </div>   
+ </div> 
+    <div className="col s6">
+    <div className="foto1">
+ 
+    </div>
+    </div> 
+    </div> 
 </div>
