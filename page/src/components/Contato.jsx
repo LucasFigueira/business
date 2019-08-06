@@ -26,7 +26,7 @@ export default class Contato extends Component {
     return( 
     
       <div className="contato">
-
+      <div className="container">
       <div className="row">
         <form className="col s12" prevent>
           <div className="row">
@@ -57,7 +57,7 @@ export default class Contato extends Component {
 
       </form>
     </div> 
-   
+    </div>
     </div>  
     )
   }

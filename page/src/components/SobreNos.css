@@ -1,34 +1,70 @@
+ 
 .sobrenos{
- width: 100%;
-height: 800px;
-/*background: url(../assets/images/verde.jpg) repeat fixed #D84530; */
-background-color: rgb(105,175,164);
+    width: 100%;
+    height: 800px; 
+    background-color: rgb(105,175,164);
 }
-.box {
-    width: 50%;
-    float: left;
-    height: 731px;/*Altura da linha*/
-    word-wrap: break-word;
-   }
-   
-   .linha-vertical {
-    border-left: 5px dashed;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    box-sizing: border-box;
-    color: rgb(240, 240, 152);
-   }
- 
- 
-.foto1{
+
+.icon-servicee{ 
+    margin-bottom: 30px;
     width: 300px;
     height: 300px;
+    margin: auto; 
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .cor{
+      background-color: black;
+      height:100px;
+      width:100px;
+      position: absolute;
+  }
+
+  .abc{  
+    margin: auto; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
     border-radius: 150px;
-    background-color: beige; 
+  }
+
+  .nome{
+    display: block;
+    text-align: center;
+  }
+
+  .cargo{
+    display: block;
+    text-align: center;
+  }
+
+ .social {
+    text-align: center;
 }
 
-.disp{
-    display: flex;
+ul, li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
+ .social li {
+    display: inline-block;
+    margin: 0 3px;
+}
 
-
- 
+ .social li a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+    border-radius: 19px;
+    color: #bab932;
+    background: #686716;
+    font-size: 22px;
+}

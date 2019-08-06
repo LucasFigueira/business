@@ -17,22 +17,20 @@ const insideStyles = {
       transform: "translate(-50%,-50%)"
     };
 export default props =>
-<Main>     
-     <Parallax bgImage={require('../assets/images/Black-wook2.png')} strength={200}>
-      <div style={{ height: 800 }}>
-        <div style={insideStyles}>HTML inside the parallax</div>
-      </div>
-    </Parallax> 
+<Main> 
       
       <Comp2>
 
       </Comp2>
+      
       <Comp3>
         
       </Comp3>
+
       <Contato2>
             
       </Contato2>
+      
       <Contato>
             
       </Contato>
