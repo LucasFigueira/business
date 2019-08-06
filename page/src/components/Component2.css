@@ -1,0 +1,108 @@
+.servicos{
+    width: 100%;
+    height: 800px; 
+    background-color: #efefef;
+}
+
+
+
+@media (max-width: 992px){
+ 
+    .servicos{
+        width: 100%;
+        height: 1000px; 
+    }   
+ }
+
+ @media (max-width: 576px){
+    .servicos{
+        width: 100%;
+        height: 1400px ; 
+    }
+}
+
+.separador2{
+    width: 100%;
+    height: 100px;
+    background: url(../assets/images/vermelho.jpg) repeat fixed #D84530;  
+  } 
+
+
+  .icon-monitor{
+    background: url(../assets/images/icon-monitor.png) no-repeat;
+    width: 68px;
+    height: 63px;
+    margin: auto; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  .icon-check{
+    background: url(../assets/images/icon-check.png) no-repeat;
+    width: 68px;
+    height: 63px;
+    margin: auto; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  .icon-graph{
+    background: url(../assets/images/icon-notes.png) no-repeat;
+    width: 68px;
+    height: 63px;
+    margin: auto; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  .icon-notes{
+    background: url(../assets/images/icon-graph.png) no-repeat;
+    width: 68px;
+    height: 63px;
+    margin: auto; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  .icon-service{ 
+    margin-bottom: 30px;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #ececec;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  h2,h5{
+      text-align: center;
+      margin-top: 0px;
+  }
+
+  .nossos-servicos{
+    
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+  }
+  p{
+    text-align: justify;
+  }

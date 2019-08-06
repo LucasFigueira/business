@@ -7,13 +7,26 @@ import './Contato.css'
 const initialState = {
   msg: { nome: '', email: '', mensagem: '' } 
 } 
-
+const image1 =
+  "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
 const baseUrl = 'http://localhost:3001/mensagem'
+
+const insideStyles = {
+  background: "white",
+  padding: 20,
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)"
+};
 
 export default class Contato extends Component {
   state = { ...initialState }
   renderForm(){ 
     return( 
+    
+      <div className="contato">
+      <div className="container">
       <div className="row">
         <form className="col s12" prevent>
           <div className="row">
@@ -43,7 +56,9 @@ export default class Contato extends Component {
         </div>
 
       </form>
+    </div> 
     </div>
+    </div>  
     )
   }
 
@@ -54,10 +69,10 @@ export default class Contato extends Component {
   } 
 
   render() {
-    return (
-        <Main >
-            {this.renderForm()} 
-        </Main>
+    return ( 
+      <React.Fragment>
+            {this.renderForm()}  
+      </React.Fragment>
     )
   }
 

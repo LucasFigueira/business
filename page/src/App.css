@@ -1,9 +1,21 @@
  
  
- .app{
-    background-image: url('./assets/images/Black-wook2.png');
-    background-repeat: no-repeat;
 
- }
 
  
+ * {  
+   font:  "Armata", Arial, Helvetica, sans-serif;
+}
+
+h1{  
+   font-weight: bold !important;
+   letter-spacing: -0.05em;
+   font-size: 2em;
+   line-height: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+
+    margin: 0px auto !important;
+    
+}

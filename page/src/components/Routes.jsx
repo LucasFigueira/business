@@ -1,13 +1,9 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router'
-import Exp from './Exp'
-import Home from './Home'
-import Contato from './Contato';
+import Exp from './Exp' 
 
 export default props => 
-    <Switch>  
-        <Route exact path='/' component={Home} />
+    <Switch> 
         <Route path='/exp' component={Exp} /> 
-        <Route path='/contato' component={Contato} /> 
         <Redirect from='*' to='/' />
      </Switch>

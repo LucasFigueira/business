@@ -1,0 +1,9 @@
+.contato{
+    width: 100%;
+    height: 600px; 
+    background-color: #202020;
+}
+
+.materialize-textarea{
+    width: 100px;
+}

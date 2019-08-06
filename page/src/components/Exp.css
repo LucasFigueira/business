@@ -7,11 +7,28 @@ hr{
     height: 16% !important;
 }
 
-
+.shadow-separator {
+  height: 20px;
+  margin: 0px auto;
+  overflow: hidden;
+  width: 200px;
+}
+.shadow-separator:after {
+  border-radius: 100%;
+  box-shadow: 0 0 10px #333333;
+  content: "";
+  display: block;
+  height: inherit;
+  position: relative;
+  top: 100%;
+}
  
 .section{
     margin: 20px;
     border-radius: 20px;
+    /* background: url(../assets/images/vermelho.jpg) repeat fixed #D84530;  */
+    background-color: #efefef;
+    
 }
 
 .card:hover{ 
@@ -37,18 +54,31 @@ hr{
     width: 20%;
     margin-left: auto;
     left: auto;
-    right: auto;
+    right: auto; 
 }
- 
+h1{
+  font-size: 2.9rem !important;
+}
     
 }
 
 @media only screen and (max-width: 596px){
 .row .col.s12 {
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     left: auto;
-    right: auto;
+    right: auto; 
+}
+h1{
+  font-size: 2.9rem !important;
 }
  
+}
+ 
+.home{
+  height: 700px;
+ 
+  background-image: url('../assets/images/Black-wook2.png');
+  background-repeat: no-repeat;
+  height: 1000px;
 }
