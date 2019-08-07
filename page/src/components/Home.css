@@ -1,0 +1,40 @@
+.home{
+    height: 700px;
+   width: 100%;
+    background-image: url('../assets/images/Black-wook2.png');
+    background-repeat: no-repeat; 
+  }
+
+ .logo{
+	padding: 0 0 65px 0;
+	margin: 0 0 45px 0; 
+	font-size: 35px !important;
+	line-height: 1.2em !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	vertical-align: middle !important;
+	top: 50px;	
+	position: relative;
+ }
+p{
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
+.js{
+	box-shadow: 0 4px 4px -2px #989898;
+}
+
+.card{
+	-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+ 
+ .logo h1 { 
+	font-weight: bold !important;
+	letter-spacing: -0.05em;
+	font-size: 5.2rem;
+}
+  

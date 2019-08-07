@@ -2,4 +2,12 @@
     background-color: aquamarine;
     height: 500px;
 }
- 
+.nav-wrapper ul.center {
+    display: block;
+    width: auto;
+  }
+
+  .nav-wrapper > ul.center li {
+    float: none;
+    display: inline-block;
+  }

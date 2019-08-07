@@ -7,6 +7,7 @@ import Routes from './components/Routes';
 import Main from './components/Main' 
 import { BrowserRouter } from 'react-router-dom'
 import React, { Component } from 'react'
+ 
 export default class App extends Component{
     render() {
         return ( 
