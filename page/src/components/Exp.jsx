@@ -8,6 +8,7 @@ import Contato2 from './Contato2.jsx'
 import Contato from './Contato.jsx'
 import { Parallax } from "react-parallax";
 import { render } from "react-dom";
+import Home from './Home.jsx'
 const insideStyles = {
       background: "white",
       padding: 20,
@@ -18,6 +19,10 @@ const insideStyles = {
     };
 export default props =>
 <Main> 
+
+    <Home>
+        
+    </Home>
       
       <Comp2>
 
