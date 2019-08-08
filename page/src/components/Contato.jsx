@@ -28,32 +28,27 @@ export default class Contato extends Component {
       <div className="contato">
       <div className="container">
       <div className="row">
-        <form className="col s12" prevent>
+        <form prevent>
           <div className="row">
             <div className="input-field col s6">
               <input placeholder="Nome" name="nome" type="text"  value={this.state.msg.nome} onChange={e => this.updateField(e)}/> 
-            </div>
-          </div>
+           
+            <input id="email"  placeholder="Email" name="email"  value={this.state.msg.email} onChange={e => this.updateField(e)}/>  
 
-  
-  
-        <div className="row">
-          <div className="input-field col s12">
-            <input id="email"  placeholder="Email" name="email"  value={this.state.msg.email} onChange={e => this.updateField(e)}/> 
-          </div>
-        </div>
-
-        <div className="row"> 
-            <div className="row">
-              <div className="input-field col s12">
-                <textarea className="materialize-textarea" name="mensagem" placeholder="Mensagem" value={this.state.msg.mensagem} onChange={e => this.updateField(e)}></textarea> 
-              </div>
-            </div>
-
+            <textarea onchange="alert('You just changed the textarea.')" placeholder="Type in this box. When you click away an alert will be generated."> </textarea>
             <button className="btn btn-primary" onClick={e => this.save(e)}>
                               Enviar
             </button> 
-        </div>
+            </div>
+
+
+            
+          </div>
+ 
+ 
+
+           
+       
 
       </form>
     </div> 
