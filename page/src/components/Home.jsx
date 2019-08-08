@@ -13,43 +13,39 @@ export default class Home extends Component {
       return (
     <div className="home">
         <div className="logo">
-          <h1>DEV WEB </h1>
+          <h1>DEV <strong>WEB</strong> </h1>
           <p>Desenvolvimento web freelancer back-end e front-end</p>
         </div>
-        <div className="container">
-          <div className="row">
-  
 
-      <div className="col s12 m6 l4" data-aos="fade-right" data-aos-mirror="true"> 
-      <div class="card"> 
-        <div className="card-image">
-          <img src="https://fernandofranzini.files.wordpress.com/2013/01/html5_logo_256.png?w=256&h=256&zoom=2"/>
-
-         </div> 
-
-         </div>
-      </div>
-
-      <div class="col s12 m6 l4" data-aos="fade-up" data-aos-mirror="true">
-      <div className="card">
-        <div class="card-image">
-          <img src="https://www.lifewire.com/thmb/s9kfBeuaF14VAGgE-SjDB-L0ZDs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/css3-57b597e85f9b58b5c2b338de.png"/>
+        <div class="wrap-buckets">
+    <div class="bucket">
+        <div class="wrap-icon">
+            1
         </div>
-
-       </div>
+        <h3>Conte-nos sua ideia</h3>
+        <p>Através do campo "Contato", whatsapp ou skype nos informe sua ideia.
+        </p>
     </div>
-
-    <div class="col s12 m6 l4" data-aos="fade-left" data-aos-mirror="true">
-    <div className="card">
-      <div class="card-image">
-      <img src="http://luizricardo.org/wordpress/wp-content/upload-files/2014/11/js-logo-badge-512.png"/>
-      </div>
-
-   </div>
-  </div>
-
-          </div>
+    <div class="bucket">
+        <div class="wrap-icon">
+            2
         </div>
+        <h3>Planejamento</h3>
+        <p>Iremos planejar a solução da sua ideia, bem como definir o orçamento.</p>
+    </div>
+    <div class="bucket">
+        <div class="wrap-icon">
+            3
+        </div>
+        <h3>Concepção</h3>
+        <p>Aqui iremos te entregar o melhor produto possível, utilizando as melhores tecnologias e técnicas.</p>
+    </div>
+</div>
+
+
+
+
+         
     </div>
        );
       }

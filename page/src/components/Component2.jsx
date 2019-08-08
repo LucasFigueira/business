@@ -5,8 +5,8 @@ import './Component2.css'
 
 export default props =>
 <React.Fragment>
-<div className="servicos">
-<h2 class="dark-text nossos-servicos">Nossos Serviços</h2>
+<div className="servicos" id="serv">
+<h2 class="dark-text nossos-servicos">SERVIÇOS</h2>
    <div className="container">
   
       <div className="row">

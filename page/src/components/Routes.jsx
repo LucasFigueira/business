@@ -4,6 +4,6 @@ import Exp from './Exp'
 
 export default props => 
     <Switch> 
-        <Route path='/exp' component={Exp} /> 
+        <Route path='/' component={Exp} /> 
         <Redirect from='*' to='/' />
      </Switch>
