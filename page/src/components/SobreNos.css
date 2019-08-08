@@ -2,9 +2,12 @@
 .sobrenos{
     width: 100%;
     height: 800px; 
-    background-color: rgb(105,175,164);
+    background-color: #72B5A4; 
 }
-
+ .imagin{
+  position: absolute;
+z-index: 9999; /* número máximo é 9999 */
+ }
 .icon-servicee{ 
     margin-bottom: 30px;
     width: 300px;
@@ -68,3 +71,49 @@ ul, li {
     background: #686716;
     font-size: 22px;
 }
+
+
+.sobrenos h2{
+  padding: 0 0 65px 0;
+  margin: 0 0 45px 0;  
+  line-height: 1.2em !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  vertical-align: middle !important;
+  top: 50px;	
+  position: relative;
+  font-weight: bold !important;
+  letter-spacing: -0.05em;
+  font-size: 3.2rem;
+  color: white;
+ }
+
+ 
+
+
+.sobrenos .nome {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.3em;
+  margin: 0 0 0.2em 0;
+}
+
+.sobrenos .cargo {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #686716;
+  line-height: 1.3em;
+  margin: 0 0 1.2em 0;
+}
+
+.sobrenos p{ 
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    font-style: italic;
+    line-height: 1.15em;
+    margin: 0 0 1.35em 0; 
+    color:  #327668;
+    font-weight: normal;
+}
+

@@ -20,24 +20,25 @@ export default class Home extends Component {
         <div class="wrap-buckets">
     <div class="bucket">
         <div class="wrap-icon">
-            01
+            1
         </div>
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <h3>Conte-nos sua ideia</h3>
+        <p>Através do campo "Contato", whatsapp ou skype nos informe sua ideia.
+        </p>
     </div>
     <div class="bucket">
         <div class="wrap-icon">
-            02
+            2
         </div>
-        <h3>laboris nisi</h3>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h3>Planejamento</h3>
+        <p>Iremos planejar a solução da sua ideia, bem como definir o orçamento.</p>
     </div>
     <div class="bucket">
         <div class="wrap-icon">
-            03
+            3
         </div>
-        <h3>dolore eu fugiat nulla</h3>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <h3>Concepção</h3>
+        <p>Aqui iremos te entregar o melhor produto possível, utilizando as melhores tecnologias e técnicas.</p>
     </div>
 </div>
 
