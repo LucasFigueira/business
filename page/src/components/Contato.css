@@ -13,3 +13,10 @@
    background-color:  #f6f6f6;
    border-radius: 10px;
 }
+.text-area{
+    resize: none;
+    height: 200px;
+}
+h1{
+    color: white !important;
+}

@@ -27,6 +27,7 @@ export default class Contato extends Component {
     
       <div className="contato">
       <div className="container">
+      <h1>CONTATO</h1>
       <div className="row">
         <form prevent>
           <div className="row">
@@ -35,7 +36,7 @@ export default class Contato extends Component {
            
             <input id="email"  placeholder="Email" name="email"  value={this.state.msg.email} onChange={e => this.updateField(e)}/>  
 
-            <textarea onchange="alert('You just changed the textarea.')" placeholder="Type in this box. When you click away an alert will be generated."> </textarea>
+            <textarea className="text-area" onchange="alert('You just changed the textarea.')" placeholder="Escreva aqui a sua mensagem."> </textarea>
             <button className="btn btn-primary" onClick={e => this.save(e)}>
                               Enviar
             </button> 

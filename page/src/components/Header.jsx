@@ -6,7 +6,7 @@ import 'react-materialize';
  export default props => 
  
 <nav className="white">
-    <div className="nav-wrapper " > 
+    <div className="nav-wrapper" > 
       <ul id="nav-mobile" className="center hide-on-med-and-down  ">
         <li><a href="#serv">Sass</a></li>
         <li><a href="badges.html">Components</a></li>

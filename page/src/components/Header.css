@@ -11,3 +11,9 @@
     float: none;
     display: inline-block;
   }
+ 
+
+nav{
+  position: fixed;
+  z-index: 2; 
+}
