@@ -11,3 +11,7 @@
     height: 100px;
     background: url(../assets/images/vermelho.jpg) repeat fixed #D84530;  
   } 
+
+ .contato2 h1{
+    color: black !important;
+  }
