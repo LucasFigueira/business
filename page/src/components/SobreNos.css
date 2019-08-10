@@ -117,3 +117,8 @@ ul, li {
     font-weight: normal;
 }
 
+@media only screen and (max-width: 596px) {
+    .sobrenos{ 
+      height: 1500px;
+  }
+}
