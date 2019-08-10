@@ -7,7 +7,7 @@ export default props =>
    <div className="container">
   
       <div className="row dives">
-      <div className="col s12 m6 l6" >
+      <div className="col s12 m12 l6" >
   
       <div className="icon-servicee">
             <img src="foto1.png" className="abc"/>
@@ -23,7 +23,7 @@ export default props =>
  
       </div>
 
-      <div className="col s12 m6 l6" >
+      <div className="col s12 m12 l6" >
  
       <div className="icon-servicee">
             <img src="foto1.png" className="abc"/>
