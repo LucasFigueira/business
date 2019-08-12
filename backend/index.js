@@ -21,6 +21,7 @@ app.use('/', router);
 app.listen(port);
 console.log('API funcionando!');
 
+//Alterar login DB
 function execSQLQuery(sqlQry, res){
     const connection = mysql.createConnection({
         host     : 'mysql669.umbler.com',
